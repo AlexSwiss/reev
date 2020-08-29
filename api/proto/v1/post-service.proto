@@ -1,0 +1,36 @@
+syntax = "proto3";
+package v1;
+
+// Post to be added
+message Post {
+    // Unique integer identifier of the post
+    int64 id = 1;
+    // Title of the post
+    string title = 2;
+    // Detail description of the post
+    string description = 3;
+}
+
+// Request data to create new post
+message CreateRequest{
+    // API versioning: it is my best practice to specify version explicitly
+    string api = 1;
+
+    // post entity to add
+    Post post = 2;
+}
+
+// Response that contains data for created post
+message CreateResponse{
+    // API versioning: it is my best practice to specify version explicitly
+    string api = 1;
+
+    // ID of created post
+    int64 id = 2;
+}
+
+// Service to manage list of post
+service ToDoService {
+    // Create new post
+    rpc Create(CreateRequest) returns (CreateResponse);
+}
