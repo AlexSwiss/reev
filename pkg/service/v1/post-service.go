@@ -47,7 +47,7 @@ func (s *PostServiceServer) connect(ctx context.Context) (*sql.Conn, error) {
 	return c, nil
 }
 
-// Create new todo task
+// Create new Post task
 func (s *PostServiceServer) Create(ctx context.Context, req *v1.CreateRequest) (*v1.CreateResponse, error) {
 	// check if the API version requested by client is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
@@ -215,8 +215,8 @@ func (s *PostServiceServer) ReadAll(ctx context.Context, req *v1.ReadAllRequest)
 	}
 	defer c.Close()
 
-	// get ToDo list
-	rows, err := c.QueryContext(ctx, "SELECT `ID`, `Title`, `Description` FROM ToDo")
+	// get Post list
+	rows, err := c.QueryContext(ctx, "SELECT `ID`, `Title`, `Description` FROM Post")
 	if err != nil {
 		return nil, status.Error(codes.Unknown, "failed to select from Post-> "+err.Error())
 	}

@@ -631,13 +631,13 @@ const _ = grpc.SupportPackageIsVersion4
 type PostServiceClient interface {
 	// Create new post
 	Create(ctx context.Context, in *CreateRequest, opts ...grpc.CallOption) (*CreateResponse, error)
-	// Read todo task
+	// Read Post task
 	Read(ctx context.Context, in *ReadRequest, opts ...grpc.CallOption) (*ReadResponse, error)
-	// Update todo task
+	// Update Post task
 	Update(ctx context.Context, in *UpdateRequest, opts ...grpc.CallOption) (*UpdateResponse, error)
-	// Delete todo task
+	// Delete Post task
 	Delete(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error)
-	// Read all todo tasks
+	// Read all Post tasks
 	ReadAll(ctx context.Context, in *ReadAllRequest, opts ...grpc.CallOption) (*ReadAllResponse, error)
 }
 
@@ -698,13 +698,13 @@ func (c *postServiceClient) ReadAll(ctx context.Context, in *ReadAllRequest, opt
 type PostServiceServer interface {
 	// Create new post
 	Create(context.Context, *CreateRequest) (*CreateResponse, error)
-	// Read todo task
+	// Read Post task
 	Read(context.Context, *ReadRequest) (*ReadResponse, error)
-	// Update todo task
+	// Update Post task
 	Update(context.Context, *UpdateRequest) (*UpdateResponse, error)
-	// Delete todo task
+	// Delete Post task
 	Delete(context.Context, *DeleteRequest) (*DeleteResponse, error)
-	// Read all todo tasks
+	// Read all Post tasks
 	ReadAll(context.Context, *ReadAllRequest) (*ReadAllResponse, error)
 }
 

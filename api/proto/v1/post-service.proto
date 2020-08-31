@@ -103,15 +103,15 @@ service PostService {
     // Create new post
     rpc Create(CreateRequest) returns (CreateResponse);
 
-    // Read todo task
+    // Read Post task
     rpc Read(ReadRequest) returns (ReadResponse);
 
-    // Update todo task
+    // Update Post task
     rpc Update(UpdateRequest) returns (UpdateResponse);
 
-    // Delete todo task
+    // Delete Post task
     rpc Delete(DeleteRequest) returns (DeleteResponse);
 
-    // Read all todo tasks
+    // Read all Post tasks
     rpc ReadAll(ReadAllRequest) returns (ReadAllResponse);
 }
