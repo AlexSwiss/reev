@@ -591,30 +591,30 @@ func init() {
 func init() { proto.RegisterFile("post-service.proto", fileDescriptor_3d05c9fd6a018b85) }
 
 var fileDescriptor_3d05c9fd6a018b85 = []byte{
-	// 368 bytes of a gzipped FileDescriptorProto
-	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xa4, 0x53, 0xcd, 0x6e, 0xe2, 0x30,
-	0x10, 0x56, 0x12, 0x08, 0xcb, 0x64, 0x09, 0xac, 0x77, 0x0f, 0x11, 0x5a, 0x55, 0x91, 0x4f, 0xf4,
-	0x50, 0x22, 0xd2, 0x2b, 0x2a, 0xaa, 0xe0, 0x5c, 0x55, 0x69, 0xfb, 0x00, 0x94, 0xf8, 0x60, 0x29,
-	0xc2, 0x69, 0x6c, 0x78, 0xfd, 0x56, 0xf6, 0xc4, 0x40, 0xa2, 0x86, 0x4b, 0x6f, 0xf1, 0x78, 0xbe,
-	0x1f, 0x7f, 0x33, 0x01, 0x52, 0x0a, 0xa9, 0xee, 0x24, 0xab, 0x8e, 0x7c, 0xc7, 0xe6, 0x65, 0x25,
-	0x94, 0x20, 0xee, 0x71, 0x41, 0x9f, 0xa0, 0xf7, 0x2c, 0xa4, 0x22, 0x21, 0xb8, 0x3c, 0x8f, 0x9c,
-	0xd8, 0x99, 0x79, 0x99, 0xcb, 0x73, 0xf2, 0x0f, 0xfa, 0x8a, 0xab, 0x82, 0x45, 0x6e, 0xec, 0xcc,
-	0x86, 0x19, 0x1e, 0x48, 0x0c, 0x41, 0xce, 0xe4, 0xae, 0xe2, 0xa5, 0xe2, 0x62, 0x1f, 0x79, 0xe6,
-	0xee, 0xb2, 0x44, 0x57, 0x30, 0x5a, 0x57, 0x6c, 0xab, 0x58, 0xc6, 0x3e, 0x0e, 0x4c, 0x2a, 0x32,
-	0x01, 0x6f, 0x5b, 0x72, 0xc3, 0x3c, 0xcc, 0xf4, 0x27, 0xf9, 0x0f, 0x3d, 0x6d, 0xc6, 0x30, 0x07,
-	0xe9, 0xaf, 0xf9, 0x71, 0x31, 0xd7, 0x16, 0x32, 0x53, 0xa5, 0x29, 0x84, 0x96, 0x40, 0x96, 0x62,
-	0x2f, 0xd9, 0x37, 0x0c, 0x68, 0xd6, 0xb5, 0x66, 0x69, 0x02, 0x41, 0xc6, 0xb6, 0x79, 0xb7, 0x64,
-	0x1b, 0xf0, 0x00, 0xbf, 0x11, 0xd0, 0x29, 0x71, 0xdd, 0xe4, 0x0a, 0x46, 0x6f, 0x65, 0xfe, 0x83,
-	0x57, 0x2e, 0x21, 0xb4, 0x04, 0x9d, 0x16, 0x22, 0x18, 0x1c, 0x4c, 0x8f, 0x75, 0x6e, 0x8f, 0x74,
-	0x01, 0xa3, 0x0d, 0x2b, 0xd8, 0x35, 0xf9, 0xf6, 0x8b, 0x97, 0x10, 0x5a, 0xc8, 0x35, 0xc1, 0xdc,
-	0xf4, 0x9c, 0x04, 0xeb, 0x23, 0xa5, 0x10, 0xea, 0xbc, 0x1e, 0x8b, 0xa2, 0x53, 0x91, 0xae, 0x61,
-	0x7c, 0xea, 0xe9, 0x94, 0xb8, 0x81, 0xbe, 0x7e, 0xbf, 0x8c, 0xdc, 0xd8, 0x6b, 0xc4, 0x82, 0xe5,
-	0xf4, 0xd3, 0x81, 0xe0, 0x55, 0x6c, 0xc4, 0x0b, 0x2e, 0x2a, 0x49, 0xc0, 0xc7, 0x6d, 0x20, 0x7f,
-	0x74, 0x6b, 0x63, 0xb5, 0xa6, 0xe4, 0xb2, 0x54, 0x4b, 0xde, 0x42, 0x4f, 0xbb, 0x20, 0x63, 0x7d,
-	0x77, 0xb1, 0x14, 0xd3, 0xc9, 0xb9, 0x50, 0xb7, 0x26, 0xe0, 0xe3, 0x0c, 0x90, 0xbb, 0x31, 0x50,
-	0xe4, 0x6e, 0x8d, 0x28, 0x01, 0x1f, 0x33, 0x44, 0x40, 0x63, 0x04, 0x08, 0x68, 0x45, 0x9c, 0xc2,
-	0xa0, 0x8e, 0x84, 0x10, 0x2b, 0x7f, 0xce, 0x70, 0xfa, 0xb7, 0x51, 0x43, 0xcc, 0xbb, 0x6f, 0xfe,
-	0xcd, 0xfb, 0xaf, 0x00, 0x00, 0x00, 0xff, 0xff, 0x38, 0x62, 0xdf, 0xea, 0xb1, 0x03, 0x00, 0x00,
+	// 365 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xa4, 0x53, 0x41, 0x6f, 0xb2, 0x40,
+	0x10, 0x0d, 0xa0, 0xf8, 0x39, 0x7c, 0xa2, 0x9d, 0xf6, 0x40, 0x4c, 0xd3, 0x90, 0x3d, 0xd9, 0x43,
+	0x25, 0xd2, 0xab, 0xa9, 0x69, 0xec, 0xb9, 0x69, 0x68, 0xfa, 0x03, 0xac, 0xec, 0x81, 0x84, 0x08,
+	0x65, 0x57, 0xff, 0x7e, 0x9b, 0xdd, 0x61, 0x55, 0x48, 0xf1, 0xd2, 0x1b, 0x33, 0x3b, 0xf3, 0xde,
+	0x9b, 0x37, 0x03, 0x60, 0x59, 0x08, 0xf9, 0x20, 0x78, 0x75, 0xc8, 0xb6, 0x7c, 0x5e, 0x56, 0x85,
+	0x2c, 0xd0, 0x3e, 0x2c, 0xd8, 0x2b, 0xf4, 0xde, 0x0a, 0x21, 0xd1, 0x07, 0x3b, 0x4b, 0x03, 0x2b,
+	0xb4, 0x66, 0x4e, 0x62, 0x67, 0x29, 0xde, 0x40, 0x5f, 0x66, 0x32, 0xe7, 0x81, 0x1d, 0x5a, 0xb3,
+	0x61, 0x42, 0x01, 0x86, 0xe0, 0xa5, 0x5c, 0x6c, 0xab, 0xac, 0x94, 0x59, 0xb1, 0x0b, 0x1c, 0xfd,
+	0x76, 0x9e, 0x62, 0x2b, 0x18, 0xad, 0x2b, 0xbe, 0x91, 0x3c, 0xe1, 0x5f, 0x7b, 0x2e, 0x24, 0x4e,
+	0xc0, 0xd9, 0x94, 0x99, 0x46, 0x1e, 0x26, 0xea, 0x13, 0x6f, 0xa1, 0xa7, 0xc4, 0x68, 0x64, 0x2f,
+	0xfe, 0x37, 0x3f, 0x2c, 0xe6, 0x4a, 0x42, 0xa2, 0xb3, 0x2c, 0x06, 0xdf, 0x00, 0x88, 0xb2, 0xd8,
+	0x09, 0xfe, 0x0b, 0x02, 0x89, 0xb5, 0x8d, 0x58, 0x16, 0x81, 0x97, 0xf0, 0x4d, 0xda, 0x4d, 0xd9,
+	0x6e, 0x78, 0x82, 0xff, 0xd4, 0xd0, 0x49, 0x71, 0x59, 0xe4, 0x0a, 0x46, 0x1f, 0x65, 0xfa, 0x87,
+	0x29, 0x97, 0xe0, 0x1b, 0x80, 0x4e, 0x09, 0x01, 0x0c, 0xf6, 0xba, 0xc6, 0x28, 0x37, 0x21, 0x5b,
+	0xc0, 0xe8, 0x85, 0xe7, 0xfc, 0x12, 0x7d, 0x7b, 0xe2, 0x25, 0xf8, 0xa6, 0xe5, 0x12, 0x61, 0xaa,
+	0x6b, 0x8e, 0x84, 0x75, 0xc8, 0x18, 0xf8, 0xca, 0xaf, 0xe7, 0x3c, 0xef, 0x64, 0x64, 0x6b, 0x18,
+	0x1f, 0x6b, 0x3a, 0x29, 0xee, 0xa0, 0xaf, 0xe6, 0x17, 0x81, 0x1d, 0x3a, 0x0d, 0x5b, 0x28, 0x1d,
+	0x7f, 0x5b, 0xe0, 0xa9, 0xf8, 0x9d, 0x0e, 0x15, 0x23, 0x70, 0xe9, 0x1a, 0xf0, 0x4a, 0x95, 0x36,
+	0x4e, 0x6b, 0x8a, 0xe7, 0xa9, 0x9a, 0xf2, 0x1e, 0x7a, 0x4a, 0x05, 0x8e, 0xd5, 0xdb, 0xd9, 0x51,
+	0x4c, 0x27, 0xa7, 0x44, 0x5d, 0x1a, 0x81, 0x4b, 0x3b, 0x20, 0xec, 0xc6, 0x42, 0x09, 0xbb, 0xb5,
+	0xa2, 0x08, 0x5c, 0xf2, 0x90, 0x1a, 0x1a, 0x2b, 0xa0, 0x86, 0x96, 0xc5, 0x31, 0x0c, 0x6a, 0x4b,
+	0x10, 0x0d, 0xfd, 0xc9, 0xc3, 0xe9, 0x75, 0x23, 0x47, 0x3d, 0x9f, 0xae, 0xfe, 0x37, 0x1f, 0x7f,
+	0x02, 0x00, 0x00, 0xff, 0xff, 0x1c, 0xaf, 0xca, 0x90, 0xb1, 0x03, 0x00, 0x00,
 }
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -625,10 +625,10 @@ var _ grpc.ClientConn
 // is compatible with the grpc package it is being compiled against.
 const _ = grpc.SupportPackageIsVersion4
 
-// ToDoServiceClient is the client API for ToDoService service.
+// PostServiceClient is the client API for PostService service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
-type ToDoServiceClient interface {
+type PostServiceClient interface {
 	// Create new post
 	Create(ctx context.Context, in *CreateRequest, opts ...grpc.CallOption) (*CreateResponse, error)
 	// Read todo task
@@ -641,61 +641,61 @@ type ToDoServiceClient interface {
 	ReadAll(ctx context.Context, in *ReadAllRequest, opts ...grpc.CallOption) (*ReadAllResponse, error)
 }
 
-type toDoServiceClient struct {
+type postServiceClient struct {
 	cc *grpc.ClientConn
 }
 
-func NewToDoServiceClient(cc *grpc.ClientConn) ToDoServiceClient {
-	return &toDoServiceClient{cc}
+func NewPostServiceClient(cc *grpc.ClientConn) PostServiceClient {
+	return &postServiceClient{cc}
 }
 
-func (c *toDoServiceClient) Create(ctx context.Context, in *CreateRequest, opts ...grpc.CallOption) (*CreateResponse, error) {
+func (c *postServiceClient) Create(ctx context.Context, in *CreateRequest, opts ...grpc.CallOption) (*CreateResponse, error) {
 	out := new(CreateResponse)
-	err := c.cc.Invoke(ctx, "/v1.ToDoService/Create", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1.PostService/Create", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *toDoServiceClient) Read(ctx context.Context, in *ReadRequest, opts ...grpc.CallOption) (*ReadResponse, error) {
+func (c *postServiceClient) Read(ctx context.Context, in *ReadRequest, opts ...grpc.CallOption) (*ReadResponse, error) {
 	out := new(ReadResponse)
-	err := c.cc.Invoke(ctx, "/v1.ToDoService/Read", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1.PostService/Read", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *toDoServiceClient) Update(ctx context.Context, in *UpdateRequest, opts ...grpc.CallOption) (*UpdateResponse, error) {
+func (c *postServiceClient) Update(ctx context.Context, in *UpdateRequest, opts ...grpc.CallOption) (*UpdateResponse, error) {
 	out := new(UpdateResponse)
-	err := c.cc.Invoke(ctx, "/v1.ToDoService/Update", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1.PostService/Update", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *toDoServiceClient) Delete(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error) {
+func (c *postServiceClient) Delete(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error) {
 	out := new(DeleteResponse)
-	err := c.cc.Invoke(ctx, "/v1.ToDoService/Delete", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1.PostService/Delete", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *toDoServiceClient) ReadAll(ctx context.Context, in *ReadAllRequest, opts ...grpc.CallOption) (*ReadAllResponse, error) {
+func (c *postServiceClient) ReadAll(ctx context.Context, in *ReadAllRequest, opts ...grpc.CallOption) (*ReadAllResponse, error) {
 	out := new(ReadAllResponse)
-	err := c.cc.Invoke(ctx, "/v1.ToDoService/ReadAll", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1.PostService/ReadAll", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-// ToDoServiceServer is the server API for ToDoService service.
-type ToDoServiceServer interface {
+// PostServiceServer is the server API for PostService service.
+type PostServiceServer interface {
 	// Create new post
 	Create(context.Context, *CreateRequest) (*CreateResponse, error)
 	// Read todo task
@@ -708,143 +708,143 @@ type ToDoServiceServer interface {
 	ReadAll(context.Context, *ReadAllRequest) (*ReadAllResponse, error)
 }
 
-// UnimplementedToDoServiceServer can be embedded to have forward compatible implementations.
-type UnimplementedToDoServiceServer struct {
+// UnimplementedPostServiceServer can be embedded to have forward compatible implementations.
+type UnimplementedPostServiceServer struct {
 }
 
-func (*UnimplementedToDoServiceServer) Create(ctx context.Context, req *CreateRequest) (*CreateResponse, error) {
+func (*UnimplementedPostServiceServer) Create(ctx context.Context, req *CreateRequest) (*CreateResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Create not implemented")
 }
-func (*UnimplementedToDoServiceServer) Read(ctx context.Context, req *ReadRequest) (*ReadResponse, error) {
+func (*UnimplementedPostServiceServer) Read(ctx context.Context, req *ReadRequest) (*ReadResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Read not implemented")
 }
-func (*UnimplementedToDoServiceServer) Update(ctx context.Context, req *UpdateRequest) (*UpdateResponse, error) {
+func (*UnimplementedPostServiceServer) Update(ctx context.Context, req *UpdateRequest) (*UpdateResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Update not implemented")
 }
-func (*UnimplementedToDoServiceServer) Delete(ctx context.Context, req *DeleteRequest) (*DeleteResponse, error) {
+func (*UnimplementedPostServiceServer) Delete(ctx context.Context, req *DeleteRequest) (*DeleteResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Delete not implemented")
 }
-func (*UnimplementedToDoServiceServer) ReadAll(ctx context.Context, req *ReadAllRequest) (*ReadAllResponse, error) {
+func (*UnimplementedPostServiceServer) ReadAll(ctx context.Context, req *ReadAllRequest) (*ReadAllResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method ReadAll not implemented")
 }
 
-func RegisterToDoServiceServer(s *grpc.Server, srv ToDoServiceServer) {
-	s.RegisterService(&_ToDoService_serviceDesc, srv)
+func RegisterPostServiceServer(s *grpc.Server, srv PostServiceServer) {
+	s.RegisterService(&_PostService_serviceDesc, srv)
 }
 
-func _ToDoService_Create_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _PostService_Create_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(CreateRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ToDoServiceServer).Create(ctx, in)
+		return srv.(PostServiceServer).Create(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/v1.ToDoService/Create",
+		FullMethod: "/v1.PostService/Create",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ToDoServiceServer).Create(ctx, req.(*CreateRequest))
+		return srv.(PostServiceServer).Create(ctx, req.(*CreateRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ToDoService_Read_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _PostService_Read_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReadRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ToDoServiceServer).Read(ctx, in)
+		return srv.(PostServiceServer).Read(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/v1.ToDoService/Read",
+		FullMethod: "/v1.PostService/Read",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ToDoServiceServer).Read(ctx, req.(*ReadRequest))
+		return srv.(PostServiceServer).Read(ctx, req.(*ReadRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ToDoService_Update_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _PostService_Update_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(UpdateRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ToDoServiceServer).Update(ctx, in)
+		return srv.(PostServiceServer).Update(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/v1.ToDoService/Update",
+		FullMethod: "/v1.PostService/Update",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ToDoServiceServer).Update(ctx, req.(*UpdateRequest))
+		return srv.(PostServiceServer).Update(ctx, req.(*UpdateRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ToDoService_Delete_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _PostService_Delete_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(DeleteRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ToDoServiceServer).Delete(ctx, in)
+		return srv.(PostServiceServer).Delete(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/v1.ToDoService/Delete",
+		FullMethod: "/v1.PostService/Delete",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ToDoServiceServer).Delete(ctx, req.(*DeleteRequest))
+		return srv.(PostServiceServer).Delete(ctx, req.(*DeleteRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ToDoService_ReadAll_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _PostService_ReadAll_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReadAllRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ToDoServiceServer).ReadAll(ctx, in)
+		return srv.(PostServiceServer).ReadAll(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/v1.ToDoService/ReadAll",
+		FullMethod: "/v1.PostService/ReadAll",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ToDoServiceServer).ReadAll(ctx, req.(*ReadAllRequest))
+		return srv.(PostServiceServer).ReadAll(ctx, req.(*ReadAllRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-var _ToDoService_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "v1.ToDoService",
-	HandlerType: (*ToDoServiceServer)(nil),
+var _PostService_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "v1.PostService",
+	HandlerType: (*PostServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
 			MethodName: "Create",
-			Handler:    _ToDoService_Create_Handler,
+			Handler:    _PostService_Create_Handler,
 		},
 		{
 			MethodName: "Read",
-			Handler:    _ToDoService_Read_Handler,
+			Handler:    _PostService_Read_Handler,
 		},
 		{
 			MethodName: "Update",
-			Handler:    _ToDoService_Update_Handler,
+			Handler:    _PostService_Update_Handler,
 		},
 		{
 			MethodName: "Delete",
-			Handler:    _ToDoService_Delete_Handler,
+			Handler:    _PostService_Delete_Handler,
 		},
 		{
 			MethodName: "ReadAll",
-			Handler:    _ToDoService_ReadAll_Handler,
+			Handler:    _PostService_ReadAll_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},

@@ -99,7 +99,7 @@ message ReadAllResponse{
 }
 
 // Service to manage list of post
-service ToDoService {
+service PostService {
     // Create new post
     rpc Create(CreateRequest) returns (CreateResponse);
 
