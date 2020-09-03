@@ -95,7 +95,7 @@ func (s *PostServiceServer) Read(ctx context.Context, req *v1.ReadRequest) (*v1.
 	defer c.Close()
 
 	// query Post by ID
-	rows, err := c.QueryContext(ctx, "SELECT `ID`, `Title`, `Description`, `Reminder` FROM Post WHERE `ID`=?",
+	rows, err := c.QueryContext(ctx, "SELECT `ID`, `Title`, `Description` FROM Post WHERE `ID`=?",
 		req.Id)
 	if err != nil {
 		return nil, status.Error(codes.Unknown, "failed to select from Post-> "+err.Error())
